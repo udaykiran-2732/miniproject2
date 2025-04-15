@@ -5,6 +5,8 @@ lg/sign_language/models/Sign-Language-To-Text-and-Speech-Conversion-master/
 __pycache__/
 *.py[cod]
 *$py.class
+*/__pycache__/*
+*.pyc
 
 # Distribution / packaging
 *.egg-info/
@@ -48,6 +50,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+myenv/
+myenv1/
 
 # IDE specific files
 .idea/
@@ -62,4 +66,15 @@ venv.bak/
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db 
+Thumbs.db
+
+# Project specific
+debug_images/
+white.jpg 
+
+# Large files
+*.mov
+*.so
+*.dylib
+sign_language/static/sign_language/images/recording.mov
+myenv1/ 
